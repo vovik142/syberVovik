@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #774E2E;
+    font-size: 16px;
+}
+nav a{
+    color: #774E2E;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-left: 50px;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 79px;
+    height: 79px;
+}
+header{
+    padding-top: 30px;
+}
+.welcome-text{
+    width: 575px;
+}
+h1{
+    margin-top: 0;
+    font-size: 110px;
+    line-height: 110px;
+}
+h1 span{
+    color: #F37F34;
+}
+.welcome{
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-image: url(./images/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 575px 600px;
+    display: flex;
+    align-items: center;
+}
+button{
+    border:none;
+    background-color: #774E2E;
+    color: white;
+    padding: 22px 20px;
+    font-size: 20px;
+}
+
+.products{
+    background: #FFF9EA;
+    padding-bottom: 100px;
+}
+.card{
+    /* width: 30%; */
+    background: white;
+    margin-bottom: 61px;
+    padding-bottom: 148px;
+}
+.title{
+    color:#673B19;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.card-text{
+    width: 312px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 36px;
+}
+.cards-title{
+    font-size: 72px;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.cards-title span{
+    color:#F37F34
+}
+.card-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.advice{
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-image: url(./images/section-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 575px 730px;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 72px;
+    text-transform: uppercase;
+
+}
+h2 span{
+    color:#F37F34;
+}
+.advice-text{
+    width: 450px;
+}
+.text-advice{
+    color:#673B19;
+    font-size: 24px;
+    font-weight: 500;
+}
+footer{
+    background: #774E2E;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer-text p{
+    color:white;
+    font-size: 36px;
+}
+.footer-logo{
+    width: 79px;
+    height: 79px;
+    padding-top: 10px;
+}
